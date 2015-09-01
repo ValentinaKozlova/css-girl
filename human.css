@@ -182,9 +182,9 @@ body {
     border-bottom: 16px solid #E3D0C7;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
-    width: 15px;
+    width: 13px;
     position: relative;
-    margin: -24px 0 0 -11px;
+    margin: -24px 0 0 -10px;
     display: block;
 }
 
@@ -226,8 +226,7 @@ body {
 	width: 220px;
     margin-left: -25px;
     height: 300px;
-    background-color: #FF376B;
-    z-index: -1;
+    background: linear-gradient(to top,rgba(210, 34, 0, 1) 30%,rgba(255, 67, 0, 1) 60%,rgba(199,34,0,1) 100%);
     position: absolute;
 }
 
@@ -236,9 +235,9 @@ body {
     height: 120px;
     border-radius: 50%;
     margin-top: -55px;
-    background-color: #FF376B;
-    z-index: -1;
+    background: linear-gradient(to bottom,rgba(199,34,0,1) 30%, rgba(234,40,3,1) 51%,rgba(255, 67, 0, 1) 75%,rgba(199,34,0,1) 100%);
     position: absolute;
+    z-index: 1;
 }
 
 #heart {
