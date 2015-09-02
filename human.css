@@ -280,6 +280,38 @@ body {
     width: 100px;
     height: 90px;
 }
+
+.field1 {
+    width: 80%;
+    bottom: -400px;
+    left: 0;
+    position: fixed;
+    height: 600px;
+    border-radius: 0 50% 50% 0;
+    background: linear-gradient(to bottom, #5CBA4C 10%, #279414 25%, #0B4D00);
+    display: inline-block;
+}
+
+.field2 {
+  width: 50%;
+  bottom: -400px;
+  right: -100px;
+  position: fixed;
+  z-index: -1;
+  height: 700px;
+  border-radius: 50% 0 0 50%;
+  background: linear-gradient(to bottom, #A8DB8F, #A1C870, #5CBA4C, #279414);
+  display: inline-block;
+}
+
+.field3 {
+    display: none;
+    width: 200px;
+    bottom: 0;
+    height: 200px;
+    background: linear-gradient(to bottom, #BBFFC6, #7BC36F);
+}
+
 #heart:before,
 #heart:after {
     position: absolute;
