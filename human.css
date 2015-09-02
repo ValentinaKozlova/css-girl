@@ -4,7 +4,7 @@ body {
 }
 
 .person {
-	width: 1200px;
+	width: 600px;
 	margin: 0 auto;
 	margin-top: 160px;
 }
@@ -59,23 +59,23 @@ body {
 	position: absolute;
     content: '';
     margin-left: -40px;
-    width: 160px;
-    height: 120px;
+    width: 140px;
+    height: 180px;
     background: #FFE8DC;
 }
 
 .chest:before {
 	transform: rotate(10deg);
     transform-origin: 100% 100%;
-    left: 85px;
-    border-radius: 5px 60px;
+    left: 90px;
+    border-radius: 5px 50px;
 }
 
 .chest:after {
-	left: 0;
+	left: 20px;
 	transform-origin: 0 100%;
 	transform: rotate(-10deg);
-	border-radius: 60px 5px;
+	border-radius: 50px 5px;
 }
 
 .dress {
@@ -88,6 +88,40 @@ body {
     width: 100px;
     border-radius: 30px 30px 80px 80px;
     margin-left: -15px;
+}
+
+.dress:after {
+  content: '';
+  display: block;
+  position: relative;
+  width: 120px;
+  border-bottom: 455px solid #DDE2E9;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-radius: 80px 80px 20px 20px;
+  margin-left: -80px;
+}
+
+.hands:before, .hands:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 55px;
+  height: 110px;
+  background: #FFE8DC;
+  border-radius: 50%;
+  z-index: 1;
+  margin-top: 132px;
+}
+
+.hands:before {
+  transform: rotate(-70deg);
+  margin-left: 5px;
+}
+
+.hands:after {
+    transform: rotate(70deg);
+    margin-left: 110px;
 }
 
 .eye {
@@ -258,26 +292,26 @@ body {
     -moz-border-radius: 50px 50px 0 0;
     border-radius: 50px 50px 0 0;
     -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
     -webkit-transform-origin: 0 100%;
-       -moz-transform-origin: 0 100%;
-        -ms-transform-origin: 0 100%;
-         -o-transform-origin: 0 100%;
-            transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
 }
 #heart:after {
     left: 0;
     -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-         -o-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
     -webkit-transform-origin: 100% 100%;
-       -moz-transform-origin: 100% 100%;
-        -ms-transform-origin: 100% 100%;
-         -o-transform-origin: 100% 100%;
-            transform-origin :100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin :100% 100%;
 }
