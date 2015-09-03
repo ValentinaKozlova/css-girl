@@ -46,20 +46,15 @@
 }
 
 .flower-small .leaf{
-  width: 20px;
-  height: 20px;
-  background: linear-gradient(45deg, rgba(91, 111, 255, 0.64), #7B95FF, #E5D3FF, #7D5AE1, #5F00FF) no-repeat;
-}
-
-.flower-small .leaf{
-  width: 15px;
-  height: 15px;
-  border-radius: 7px;
-    background: linear-gradient(45deg, rgba(161, 215, 255, 0.64), #CFD2E1, #FFFFFF, #B3C9F2, #A8A6AB) no-repeat;
-  border: 1px solid #9E9E9E;
+      width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    background: linear-gradient(45deg, rgba(161, 215, 255, 0.64), #D1F9FF, #FFFFFF, #B3F2EE, #B0EFFF) no-repeat;
+    border: 1px solid rgba(28, 167, 237, 0.63);
 }
 
 .flower-small {
+	    margin: 20px 0 0 10px;
   position: absolute;
 }
 
@@ -189,4 +184,19 @@
 .flower-medium.third {
   transform: rotate(0deg);
   margin: 20px 0 0 65px;
+}
+
+.flower-small.second {
+    margin: 25px 0 0 -20px;
+    transform: rotate(10deg);
+}
+
+.flower-small.third {
+    margin: -10px 0 0 -25px;
+    transform: rotate(0);
+}
+
+.flower-small.forth {
+    margin: 50px 0 0 -60px;
+    z-index: -2;
 }
