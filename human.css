@@ -359,3 +359,27 @@ body {
   -o-transform-origin: 100% 100%;
   transform-origin :100% 100%;
 }
+
+.forelock:before, .forelock:after {
+ content: ''; 
+ position: absolute;
+ opacity: .3;
+ border-radius: 50%;
+ z-index: 5;
+}
+.forelock:before {
+  display: block;
+  width: 180px;
+  height: 100px;
+  background: linear-gradient(to bottom, transparent, #fff);
+  margin: 20px 0 0 20px;
+
+
+}
+
+.forelock:after {
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(to top, transparent, #fff);
+  margin: 20px 0 0 35px;
+}

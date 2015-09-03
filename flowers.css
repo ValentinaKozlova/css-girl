@@ -10,6 +10,7 @@
   display: inline-block;
   border-radius: 2px 80%;
   position: absolute;
+  box-shadow: 0 0 3px rgba(64, 232, 255, 0.75), 0 0 3px rgba(64, 232, 255, 0.75);
 }
 
 .flower-light {
@@ -199,4 +200,39 @@
 .flower-small.forth {
     margin: 50px 0 0 -60px;
     z-index: -2;
+}
+
+.green.leaf {
+	 width: 70px;
+	 z-index: -3;
+	 height: 60px;
+    background: linear-gradient(45deg, #2A9100, #82E379, #2A9100);
+    border: 1px solid #138100;
+        box-shadow: 0 0 5px 0 #026E04;
+}
+
+.green.leaf.first {
+    margin: 100px 0 0 0;
+    transform: rotate(45deg);
+}
+
+.green.leaf.second {
+	margin: 90px 0 0 -20px;
+    transform: rotate(80deg);
+}
+
+.green.leaf.third {
+	z-index: -4;
+    margin: 100px 0 0 20px;
+    transform: rotate(0);
+}
+
+.green.leaf.fifth {
+	    margin: 85px 0 0 -20px;
+    transform: rotate(20deg);
+    height: 100px;
+    width: 100px;
+    z-index: -5;
+    background: linear-gradient(45deg, #2A9100, #47CA3B, #2A9100);
+    box-shadow: 0 0 5px 0 #026E04;
 }
