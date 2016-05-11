@@ -2,29 +2,163 @@
 <html>
 <head>
 	<title>A Human</title>
+
 	<link rel="stylesheet" type="text/css" href="human.css">
+	<link rel="stylesheet" type="text/css" href="flowers.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body>
-	<section class="person">
-		<div class="hair">
-			<div class="forelock"></div>
-		</div>
-		<div class="face">
-
-			<div class="left eye">
-				<div class="hotspot"></div>
+	<div class="sky">
+		<section class="landscape">
+			<div class="field1"></div>
+			<div class="field2"></div>
+			<div class="field3"></div>
+		</section>
+		<section class="person">
+			<div class="hair">
+				<div class="forelock"></div>
 			</div>
-			<div class="right eye">
-				<div class="hotspot"></div>
+			<div class="face">
+				<div class="left eye">
+					<div class="hotspot"></div>
+				</div>
+				<div class="right eye">
+					<div class="hotspot"></div>
+				</div>
+				<div class="nose"></div>
+				<div class="lips"></div>
 			</div>
-			<div class="nose"></div>
-			<div class="mouth"></div>
-		</div>
-		<div class="neck"></div>
-		
-		<div class="chest"></div>
-		<div class="dress"></div>
-		<div id="heart"></div>
-	</section>
+			<div class="neck"></div>
+			
+			<div class="chest"></div>
+			<div class="hands"></div>
+			<div class="flowers">
+				<div class="flower">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-light">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-light second">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-light third">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-medium first">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-medium second">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-medium third">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-small">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-small second">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-small third">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-small forth">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-small forth" style="margin: 56px 0 0 5px;">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-small forth" style="margin: -5px 0 0 47px; transform: rotate(10deg);">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-small forth" style="margin: 98px 0 0 25px; transform: rotate(50deg);">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-small forth" style="margin: 120px 0 0 70px; transform: rotate(100deg);">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-small forth" style="margin: 85px 0 0 90px; transform: rotate(50deg);">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="flower-small forth" style="    margin: 110px 0 0 70px; transform: rotate(0deg); z-index: 1;">
+					<div class="leaf r45"></div>
+					<div class="leaf r110"></div>
+					<div class="leaf r-10"></div>
+					<div class="leaf r0"></div>
+					<div class="leaf r80"></div>
+				</div>
+				<div class="green leaf first"></div>
+				<div class="green leaf second"></div>
+				<div class="green leaf third"></div>
+				<div class="green leaf fifth"></div>
+			</div>
+			<div class="dress"></div>
+		</section>
+	</div>
 </body>
 </html>
