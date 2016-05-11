@@ -1,0 +1,25 @@
+{
+  "name": "css-girl",
+  "version": "1.0.0",
+  "description": "css art :)",
+  "main": "human.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Aeternitas13@bitbucket.org/Aeternitas13/css-art.git"
+  },
+  "keywords": [
+    "css-art"
+  ],
+  "author": "Valentina Kozlova",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Aeternitas13/css-art#readme",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-watch-less": "^1.0.1"
+  }
+}
