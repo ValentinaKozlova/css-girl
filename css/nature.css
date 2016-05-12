@@ -1,0 +1,39 @@
+.field1 {
+  width: 80%;
+  bottom: -400px;
+  left: 0;
+  position: fixed;
+  height: 600px;
+  border-radius: 0 50% 50% 0;
+  background: linear-gradient(to bottom, #5CBA4C 10%, #279414 25%, #0B4D00);
+  display: inline-block;
+}
+.field2 {
+  width: 50%;
+  bottom: -250px;
+  right: -100px;
+  position: fixed;
+  z-index: -1;
+  height: 400px;
+  border-radius: 50% 50% 0 0;
+  background: linear-gradient(to bottom, #71BA52, #338924);
+  display: inline-block;
+}
+.field3 {
+  width: 70%;
+  bottom: 0;
+  right: -50px;
+  position: fixed;
+  z-index: -2;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #D6FADA, #AAD793, #9EBE99, #77A171);
+  display: inline-block;
+}
+.sky {
+  width: 100%;
+  min-height: 850px;
+  z-index: -3;
+  background: linear-gradient(to bottom, #6BC3FF, #51CBFF, #52CAFF, #7BD5FF, #C9EAFA, #EAFBFF, #FFFEE8) no-repeat;
+  position: relative;
+}
